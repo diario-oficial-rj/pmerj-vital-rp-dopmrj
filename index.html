@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <title>Diário Oficial do Estado do Rio de Janeiro - Vital RP </title>
+  <title>Diário Oficial do Estado do Rio de Janeiro - Vital RP</title>
   <style>
     body {
       font-family: 'Georgia', serif;
@@ -15,6 +15,7 @@
       color: white;
       padding: 20px;
       text-align: center;
+      position: relative;
     }
 
     header h1 {
@@ -81,67 +82,185 @@
       padding: 20px;
       color: #666;
     }
+
+    .logo-top-left {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
   </style>
 </head>
 <body>
 
   <header>
+    <div class="logo-top-left">
+      <img src="pmerj.png" alt="Logo PMERJ" style="max-width: 100px; height: auto;" />
+    </div>
     <h1>Diário Oficial do Estado do Rio de Janeiro</h1>
-    <p>Polícia Militar do Estado do Rio de Janeiro - Vital <br>
-        Sistema Desenvolvido pelo Técnico em Informática Noah VeraCruz
-
-    </p>
-    <div style="position: absolute; top: 10px; left: 10px;">
-        <img src="bandeirarj.png" alt="Logo PMERJ" style="max-width: 100px; height: auto;" />
-      </div>
+    <p>Polícia Militar do Estado do Rio de Janeiro - Vital<br>
+       Sistema Desenvolvido pelo Major PM Noah VeraCruz</p>
   </header>
 
   <div class="manchete">
-   Boletins Gerais
+    Boletins Gerais
   </div>
 
+
+
+
+
+
+
+
   <div class="container">
-
+    <!-- PROMOÇÃO 1 -->
     <div class="boletim">
-        <h3>Boletim Interno Nº 001/2025 - Promoção</h3>
-        <p><strong>Data:</strong> 20/06/2025</p>
-        <button onclick="toggleContent(this)">Ver assunto</button>
-        <div class="boletim-content">
-<br>
-            <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 20px; text-align: center;">
-                <img src="pmerj.png" alt="Logo PMERJ" style="max-width: 100px; height: auto; margin-bottom: 10px;" />
-                <h4 style="margin: 0;">ESTADO DO RIO DE JANEIRO</h4>
-                <p style="margin: 2px 0;"><strong>POLÍCIA MILITAR DO ESTADO DO RIO DE JANEIRO</strong></p>
-                <p style="margin: 2px 0;"><strong>COMANDO-GERAL</strong></p>
-                <p style="margin: 2px 0;"><strong>P/1 – SEÇÃO DE PESSOAL</strong></p>
-              </div>
-          <br>    
-<hr>
-<br><br>
-
-           <p><strong>DIÁRIO OFICIAL - PUBLICAÇÃO OFICIAL <br>
-            Rio de Janeiro, 20 de junho de 2025<br>
-            PORTARIA Nº 001/CGPMERJ/2025<br>
-            ASSUNTO: PROMOÇÃO DE PRAÇAS</strong></p><br><br>
-
-          <p><strong> COMANDANTE-GERAL DA POLÍCIA MILITAR DO ESTADO DO RIO DE JANEIRO,</strong> no uso de suas atribuições legais e regulamentares, em conformidade com a legislação vigente e com base nos critérios estabelecidos pela Lei de Promoções da Polícia Militar, resolve:<br><br>
-            Art. 1º – Fica promovido, por mérito e destacada atuação profissional, a graduação de Soldado de 1ª Classe PM, os praças:
-        </p>
-          <ul>
-            <li><strong>VIEIRA SILVA,</strong> matrícula nº 12985430, em reconhecimento aos serviços prestados com dedicação, lealdade e elevado espírito público à Corporação e à sociedade fluminense.</li><br><br>
-            <li><strong>KEVIN VIEIRA</strong>, matrícula nº 12985435, em reconhecimento aos serviços prestados com dedicação, lealdade e elevado espírito público à Corporação e à sociedade fluminense. <br><br></li>
-            <li><strong>BERNADO MARQUES</strong>, matrícula nº 12465435, em reconhecimento aos serviços prestados com dedicação, lealdade e elevado espírito público à Corporação e à sociedade fluminense. <br><br></li>
-            <li><strong>GUILHERME MENDES</strong>, matrícula nº 12292234, em reconhecimento aos serviços prestados com dedicação, lealdade e elevado espírito público à Corporação e à sociedade fluminense.</li>
-          </ul>
-          <p>Art. 2º – A presente promoção produz efeitos a partir da data de publicação desta Portaria, com as devidas anotações nos assentamentos funcionais e demais registros oficiais. <br><br>
-             Art. 3º – Publique-se, registre-se e cumpra-se.</p>
-             <br>
-             <p><strong>Assinatura:</strong> Comandante-Geral PM Diogo Martins Azevedo da PMERJ</p>
-             <p> <p><strong>Assinatura:</strong> Major PM Noah VeraCruz da PMERJ</p></p>
+      <h3>BOLETIM OFICIAL Nº 043/2025 - Promoção</h3>
+      <p><strong>PORTARIA Nº 07/2025 – GCG/PMERJ</strong></p>
+      <p><strong>Data:</strong> 20/06/2025</p>
+      <button onclick="toggleContent(this)">Ver assunto</button>
+      <div class="boletim-content">
+        <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 20px; text-align: center;">
+          <img src="pmerj.png" alt="Logo PMERJ" style="max-width: 100px; height: auto; margin-bottom: 10px;" />
+          <p><strong>ESTADO DO RIO DE JANEIRO</strong><br>
+            <strong>POLÍCIA MILITAR DO ESTADO DO RIO DE JANEIRO</strong><br>
+          <strong>COMANDO-GERAL</strong><br>
+          <strong>P/1 – SEÇÃO DE PESSOAL</strong></p><br>
         </div>
+        <hr><br>
+        <p><strong>DIÁRIO OFICIAL - PUBLICAÇÃO OFICIAL <br>
+          Rio de Janeiro, 20 de junho de 2025<br>
+          ASSUNTO: PROMOÇÃO DE PRAÇAS</strong></p><br><br>
+
+        <p> COMANDANTE-GERAL DA POLÍCIA MILITAR DO ESTADO DO RIO DE JANEIRO, no uso de suas atribuições legais e regulamentares, em conformidade com a legislação vigente e com base nos critérios estabelecidos pela Lei de Promoções da Polícia Militar, resolve:<br><br>
+          Art. 1º – Fica promovido, por mérito e destacada atuação profissional, a graduação de Soldado de 1ª Classe PM, os praças:
+      </p>
+        <ul>
+          <li><strong>VIEIRA SILVA,</strong> matrícula nº 12985430, em reconhecimento aos serviços prestados com dedicação, lealdade e elevado espírito público à Corporação e à sociedade fluminense.</li><br><br>
+          <li><strong>KEVIN VIEIRA</strong>, matrícula nº 12985435, em reconhecimento aos serviços prestados com dedicação, lealdade e elevado espírito público à Corporação e à sociedade fluminense. <br><br></li>
+          <li><strong>BERNADO MARQUES</strong>, matrícula nº 12465435, em reconhecimento aos serviços prestados com dedicação, lealdade e elevado espírito público à Corporação e à sociedade fluminense. <br><br></li>
+          <li><strong>GUILHERME MENDES</strong>, matrícula nº 12292234, em reconhecimento aos serviços prestados com dedicação, lealdade e elevado espírito público à Corporação e à sociedade fluminense.</li>
+        </ul>
+        <p>Art. 2º – A presente promoção produz efeitos a partir da data de publicação desta Portaria, com as devidas anotações nos assentamentos funcionais e demais registros oficiais. <br><br>
+           Art. 3º – Publique-se, registre-se e cumpra-se.</p>
+           <br>
+           <p><strong>Assinatura:</strong> Comandante-Geral PM Diogo Martins Azevedo da PMERJ</p>
+           <p> <p><strong>Assinatura:</strong> Major PM Noah VeraCruz da PMERJ</p></p>
+      </div>
     </div>
 
+     
+<!-------------------------------------EDITAL---------------------------------------->
+
+
+
     <div class="boletim">
+      <h3>BOLETIM OFICIAL Nº 041/2025 - Edital</h3>
+      <p><strong>PORTARIA Nº 05/2025 – GCG/PMERJ</strong></p>
+      <p><strong>Data:</strong> 14/06/2025</p>
+      <button onclick="toggleContent(this)">Ver assunto</button>
+      <div class="boletim-content">
+        <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 20px; text-align: center;">
+          <img src="pmerj.png" alt="Logo PMERJ" style="max-width: 100px; height: auto; margin-bottom: 10px;" />
+          <p><strong>ESTADO DO RIO DE JANEIRO</strong><br>
+            <strong>POLÍCIA MILITAR DO ESTADO DO RIO DE JANEIRO</strong><br>
+          <strong>COMANDO-GERAL</strong><br>
+        </div>
+        <hr><br>
+
+        <p><strong>DIÁRIO OFICIAL – PUBLICAÇÃO OFICIAL<br>
+          Rio de Janeiro, 14 de junho de 2025<br>
+          ASSUNTO: ABERTURA DE EDITAL PARA INGRESSO NA POLÍCIA MILITAR DO ESTADO DO RIO DE JANEIRO</strong></p>
+        </p>
+        <br><br>
+         <p>O COMANDANTE-GERAL DA POLÍCIA MILITAR DO ESTADO DO RIO DE JANEIRO, no uso de suas atribuições legais e regulamentares, torna público o edital de abertura do processo seletivo para ingresso na Polícia Militar do Estado do Rio de Janeiro (PMERJ), destinado ao recrutamento e seleção de novos integrantes para compor o efetivo da Corporação.<br>
+          <br>
+          Art. 1º - Os interessados deverão acessar o formulário de inscrição e demais informações pelo endereço eletrônico abaixo:<br><br>
+          
+          🔗 Formulário de Inscrição: <a  href="https://docs.google.com/forms/d/e/1FAIpQLScGWB_XBLprZpMgyVbQurhd_7MQSHhgS2_eQbAuJxmLPb6-Jw/viewform" target="_blank" >www.pmerj.rj.gov.br/processoseletivo2025</a> <br>  </p>
+         <p>O edital completo encontra-se disponível para consulta no site oficial da PMERJ e na intranet institucional.<br><br>
+
+          Prazos Importantes:<br>
+          
+          Inscrições abertas a partir de: 13 de junho de 2025<br>
+          
+          Prazo final para inscrição: 20 de julho de 2025<br><br>
+          
+          Recomenda-se a leitura atenta do edital, que contém todas as informações sobre requisitos, etapas do processo seletivo, documentação necessária, critérios de avaliação e demais disposições.<br><br>
+          
+          Para dúvidas e esclarecimentos, os candidatos poderão entrar em contato com a Diretoria de Pessoal da PMERJ, por meio dos e-mails:<br>
+          <ul>
+          <li>V8gamer<br><br></li>
+          <li>LipeDEV<br><br></li>
+          </ul>
+          Art. 2º - Publique-se, registre-se e cumpra-se.</p>
+          <br><br>
+
+          <p><strong>Assinatura:</strong> Coronel Diogo Martins Azevedo, Comandante-Geral da PMERJ-Vital</p>
+        <p><strong>Assinatura:</strong> Major PM Noah VeraCruz, Corregedor-Geral da PMERJ-Vital</p>
+      </div>
+    </div>  
+    
+
+<!-------------------------------------RESULTADO EDITAL---------------------------------------->
+
+
+<div class="boletim">
+  <h3>BOLETIM OFICIAL Nº 042/2025 - Resultados do  Edital</h3>
+  <p><strong>PORTARIA Nº 06/2025 – GCG/PMERJ</strong></p>
+  <p><strong>Data:</strong> 20/06/2025</p>
+  <button onclick="toggleContent(this)">Ver assunto</button>
+  <div class="boletim-content">
+    <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 20px; text-align: center;">
+      <img src="pmerj.png" alt="Logo PMERJ" style="max-width: 100px; height: auto; margin-bottom: 10px;" />
+      
+      <p><strong>ESTADO DO RIO DE JANEIRO</strong><br>
+        <strong>POLÍCIA MILITAR DO ESTADO DO RIO DE JANEIRO</strong><br>
+      <strong>COMANDO-GERAL</strong><br>
+      <strong>P/1 – SEÇÃO DE PESSOAL</strong></p><br>
+    </div>
+    <hr><br>
+
+    <p><strong>DIÁRIO OFICIAL – PUBLICAÇÃO OFICIAL<br>
+      Rio de Janeiro, 20 de junho de 2025<br>
+      
+      
+      ASSUNTO:  Divulgação dos Aprovados no Edital de Concurso Público PMERJ 2025</strong></p>
+    </p><br><br>
+   
+    <P> Art. 1º - A Polícia Militar do Estado do Rio de Janeiro torna público, por meio deste boletim oficial, a relação dos candidatos aprovados no Concurso Público regido pelo Edital nº 01/2025.<br>
+      <br>
+      Os candidatos abaixo listados foram aprovados em todas as etapas do certame (prova objetiva, avaliação médica, TAF e investigação social) e estão convocados para a próxima fase, conforme previsto no edital.<br>
+    <br>
+    <strong> LISTA DE APROVADOS:</strong><br>
+    <ul><li>001 - Bruno Henrique - comandantecerberu@gmail.com - <strong> Pontuação: 14/19</strong><br></li>
+      <li>002 - Gabriel Mattos  da Silva Vottz - vottz@gmail.com - <strong> Pontuação: 13/19</strong><br></li>
+        <li>003 - Juscelino Inácio - ozoariodedece@gmail.com - <strong> Pontuação: 15/19</strong></li></ul><br>
+        
+        Os candidatos aprovados deverão acompanhar as próximas convocações e orientações por meio do portal oficial da PMERJ. O não comparecimento nas datas indicadas implicará em eliminação do certame, conforme as regras estabelecidas no edital.
+<br>
+
+      Art. 2º - Revoga-se a Portaria nº 06/2025 – GCG/PMERJ.
+    </P>
+    <br><br>
+    
+    <p><strong>Assinatura:</strong> Coronel Diogo Martins Azevedo, Comandante-Geral da PMERJ-Vital</p>
+    <p><strong>Assinatura:</strong> Major PM Noah VeraCruz, Corregedor-Geral da PMERJ-Vital</p>
+  </div>
+</div>
+
+
+
+
+
+<!-------------------------------------EXONERAÇÃO---------------------------------------->
+
+
+
+
+  <!-- EXONERAÇÃO 
+   
+  <div class="boletim">
         <h3>Boletim Interno Nº 002/2025 - Exoneração</h3>
         <p><strong>Data:</strong> 20/06/2025</p>
         <button onclick="toggleContent(this)">Ver assunto</button>
@@ -181,10 +300,55 @@
         </div>
     </div>
   </div>
+  
+  -->
+
+
+    
+     
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
 
   <footer>
     © 2025 Diário Oficial - PMERJ-RP <br>
-    Servidor e Proteger
+    Servir e Proteger
   </footer>
 
   <script>
@@ -204,26 +368,25 @@
       const boletins = Array.from(container.querySelectorAll('.boletim'));
 
       boletins.sort((a, b) => {
-        const dataTextoA = a.querySelector('p').textContent;
-        const dataTextoB = b.querySelector('p').textContent;
+        // Extrair datas
+        const dataA = a.querySelector('p strong')?.textContent.match(/\d{2}\/\d{2}\/\d{4}/)?.[0] || "01/01/1970";
+        const dataB = b.querySelector('p strong')?.textContent.match(/\d{2}\/\d{2}\/\d{4}/)?.[0] || "01/01/1970";
 
-        const regex = /(\d{2})\/(\d{2})\/(\d{4})/;
+        const [diaA, mesA, anoA] = dataA.split('/').map(Number);
+        const [diaB, mesB, anoB] = dataB.split('/').map(Number);
 
-        const matchA = dataTextoA.match(regex);
-        const matchB = dataTextoB.match(regex);
+        const dateA = new Date(anoA, mesA - 1, diaA);
+        const dateB = new Date(anoB, mesB - 1, diaB);
 
-        let dateA = new Date(0);
-        let dateB = new Date(0);
-
-        if (matchA) {
-          dateA = new Date(`${matchA[3]}-${matchA[2]}-${matchA[1]}`);
+        if (dateA.getTime() !== dateB.getTime()) {
+          return dateB - dateA; // mais recente primeiro
         }
 
-        if (matchB) {
-          dateB = new Date(`${matchB[3]}-${matchB[2]}-${matchB[1]}`);
-        }
+        // Datas iguais: ordenar por número do boletim
+        const numeroA = parseInt(a.querySelector('h3')?.textContent.match(/Nº (\d+)/)?.[1]) || 0;
+        const numeroB = parseInt(b.querySelector('h3')?.textContent.match(/Nº (\d+)/)?.[1]) || 0;
 
-        return dateB - dateA; // ordem decrescente
+        return numeroB - numeroA; // maior número primeiro
       });
 
       boletins.forEach(boletim => container.appendChild(boletim));
@@ -231,6 +394,5 @@
 
     window.addEventListener('DOMContentLoaded', ordenarBoletins);
   </script>
-
 </body>
 </html>
